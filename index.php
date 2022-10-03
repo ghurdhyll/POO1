@@ -4,15 +4,13 @@ include_once 'Car.php';
 
 $bike = new Bicycle('blue');
 
-// var_dump($bike) . PHP_EOL;
+var_dump($bike) . PHP_EOL;
 
-
-// Moving bike
-// echo $bike->forward();
-// echo '<br> Vitesse du vélo : ' . $bike->getCurrentSpeed() . ' km/h' . '<br>';
-// echo $bike->brake();
-// echo '<br> Vitesse du vélo : ' . $bike->getCurrentSpeed() . ' km/h' . '<br>';
-// echo $bike->brake() . '<br>';
+echo $bike->forward();
+echo '<br> Vitesse du vélo : ' . $bike->getCurrentSpeed() . ' km/h' . '<br>';
+echo $bike->brake();
+echo '<br> Vitesse du vélo : ' . $bike->getCurrentSpeed() . ' km/h' . '<br>';
+echo $bike->brake() . '<br>';
 
 $renaultZoe = new Car('gray', 4, 'electric');
 
